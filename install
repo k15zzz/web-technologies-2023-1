@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd app
+npm install
+
+#if dev
+npm run dev
+
+#if prod
+#npm run build
+#docker-compose up --build -d
